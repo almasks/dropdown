@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+    .container{
+        width: 100%;
+        background: blue;
+        padding: 15px;
+        
+    }
+    .container  ul {
+        list-style: none;
+
+         
+    }
+    .container ul li{
+        display: inline-block;
+        position: relative;
+
+    }
+    .container ul li a{
+        color: white;
+        padding: 5px;
+        display: block;
+        text-decoration: none;
+        text-align: center;
+    }
+   
+    ul li ul.dropdown li {
+        display: block;
+        background: blue;
+    }
+    ul li ul.dropdown{
+        width: 100%;
+        position: absolute;
+        display: none;
+    }
+    ul li:hover ul.dropdown{
+        display: block;
+    }
+
+    
